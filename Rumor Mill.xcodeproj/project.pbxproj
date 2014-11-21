@@ -14,6 +14,7 @@
 		D013C7F01A1DB81F0090956A /* Rumor_MillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7EF1A1DB81F0090956A /* Rumor_MillTests.swift */; };
 		D013C7FA1A1DB8C90090956A /* RMTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */; };
 		D013C7FC1A1DC7EB0090956A /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7FB1A1DC7EB0090956A /* BlogPost.swift */; };
+		D0530A761A1F0BA60089D5D4 /* RumorMill.png in Resources */ = {isa = PBXBuildFile; fileRef = D0530A751A1F0BA60089D5D4 /* RumorMill.png */; };
 		D0CDFAD51A1EE63C0013FDF9 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDFAD41A1EE63C0013FDF9 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		D013C7EF1A1DB81F0090956A /* Rumor_MillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumor_MillTests.swift; sourceTree = "<group>"; };
 		D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMTableTableViewController.swift; path = ../RMTableTableViewController.swift; sourceTree = "<group>"; };
 		D013C7FB1A1DC7EB0090956A /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlogPost.swift; path = ../BlogPost.swift; sourceTree = "<group>"; };
+		D0530A751A1F0BA60089D5D4 /* RumorMill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RumorMill.png; sourceTree = "<group>"; };
 		D0CDFAD41A1EE63C0013FDF9 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 		D013C7D71A1DB81F0090956A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0530A751A1F0BA60089D5D4 /* RumorMill.png */,
 				D013C7D81A1DB81F0090956A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -201,6 +204,7 @@
 				D013C7DF1A1DB81F0090956A /* Main.storyboard in Resources */,
 				D013C7E41A1DB81F0090956A /* LaunchScreen.xib in Resources */,
 				D013C7E11A1DB81F0090956A /* Images.xcassets in Resources */,
+				D0530A761A1F0BA60089D5D4 /* RumorMill.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

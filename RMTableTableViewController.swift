@@ -57,6 +57,7 @@ class RMTableTableViewController: UITableViewController, NSXMLParserDelegate {
         let row = 0
         
         cell.textLabel.text = blogPost.postTitle
+        cell.textLabel.numberOfLines = 0
         
         return cell
     }
