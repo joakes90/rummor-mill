@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mdz-Ow-PI4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Rumor Mill-->
@@ -37,7 +38,6 @@
         <!--Article View Controller-->
         <scene sceneID="5Yk-Ov-63a">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrz-m1-ypN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="41j-hs-rqb" customClass="ArticleViewController" customModule="Rumor_Mill" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pmd-Dx-xHR"/>
@@ -47,17 +47,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0a9-3M-gD2">
-                                <rect key="frame" x="0.0" y="44" width="600" height="600"/>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0a9-3M-gD2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="0a9-3M-gD2" secondAttribute="trailing" constant="-16" id="60M-vO-lFM"/>
+                            <constraint firstItem="V1d-aq-aan" firstAttribute="top" secondItem="0a9-3M-gD2" secondAttribute="bottom" id="LWc-o7-WKx"/>
+                            <constraint firstItem="0a9-3M-gD2" firstAttribute="top" secondItem="5uw-dJ-lLF" secondAttribute="topMargin" id="qhD-uk-9hs"/>
+                            <constraint firstItem="0a9-3M-gD2" firstAttribute="leading" secondItem="5uw-dJ-lLF" secondAttribute="leadingMargin" constant="-16" id="vhc-JY-SpS"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="articleText" destination="0a9-3M-gD2" id="u13-CY-hYj"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrz-m1-ypN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1856" y="410"/>
         </scene>
