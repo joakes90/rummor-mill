@@ -17,6 +17,8 @@ class RMTableTableViewController: UITableViewController, NSXMLParserDelegate {
     var postDescription: String = String()
     var ename: String = String()
     
+    let sharedData = NSUserDefaults(suiteName: "com.joakes.shared values")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +26,8 @@ class RMTableTableViewController: UITableViewController, NSXMLParserDelegate {
         parser = NSXMLParser(contentsOfURL: url)!
         parser.delegate = self
         parser.parse()
-
+        
+        sharedData?.setValue(blogPosts[0].postTitle, forKey: "title")
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,8 +59,8 @@ class RMTableTableViewController: UITableViewController, NSXMLParserDelegate {
         
         let row = 0
         
-        cell.textLabel.text = blogPost.postTitle
-        cell.textLabel.numberOfLines = 0
+        cell.textLabel?.text = blogPost.postTitle
+        cell.textLabel?.numberOfLines = 0
         
         return cell
     }

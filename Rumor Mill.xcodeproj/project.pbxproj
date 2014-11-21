@@ -15,6 +15,14 @@
 		D013C7FA1A1DB8C90090956A /* RMTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */; };
 		D013C7FC1A1DC7EB0090956A /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7FB1A1DC7EB0090956A /* BlogPost.swift */; };
 		D0530A761A1F0BA60089D5D4 /* RumorMill.png in Resources */ = {isa = PBXBuildFile; fileRef = D0530A751A1F0BA60089D5D4 /* RumorMill.png */; };
+		D09944331A1F1162003E6007 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09944321A1F1162003E6007 /* WatchKit.framework */; };
+		D09944381A1F1162003E6007 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09944371A1F1162003E6007 /* InterfaceController.swift */; };
+		D099443A1A1F1162003E6007 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09944391A1F1162003E6007 /* GlanceController.swift */; };
+		D099443C1A1F1162003E6007 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099443B1A1F1162003E6007 /* Images.xcassets */; };
+		D09944401A1F1162003E6007 /* Rumor Mill Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = D099443F1A1F1162003E6007 /* Rumor Mill Watch App.app */; };
+		D09944471A1F1162003E6007 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09944461A1F1162003E6007 /* Interface.storyboard */; };
+		D09944491A1F1162003E6007 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09944481A1F1162003E6007 /* Images.xcassets */; };
+		D099444C1A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D09944301A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D0CDFAD51A1EE63C0013FDF9 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDFAD41A1EE63C0013FDF9 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +34,35 @@
 			remoteGlobalIDString = D013C7D31A1DB81F0090956A;
 			remoteInfo = "Rumor Mill";
 		};
+		D09944411A1F1162003E6007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013C7CC1A1DB81F0090956A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D099443E1A1F1162003E6007;
+			remoteInfo = "Rumor Mill Watch App";
+		};
+		D099444A1A1F1162003E6007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013C7CC1A1DB81F0090956A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D099442F1A1F1162003E6007;
+			remoteInfo = "Rumor Mill WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D09944531A1F1163003E6007 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D099444C1A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D013C7D41A1DB81F0090956A /* Rumor Mill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumor Mill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +77,16 @@
 		D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMTableTableViewController.swift; path = ../RMTableTableViewController.swift; sourceTree = "<group>"; };
 		D013C7FB1A1DC7EB0090956A /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlogPost.swift; path = ../BlogPost.swift; sourceTree = "<group>"; };
 		D0530A751A1F0BA60089D5D4 /* RumorMill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RumorMill.png; sourceTree = "<group>"; };
+		D09944301A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rumor Mill WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09944321A1F1162003E6007 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		D09944361A1F1162003E6007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09944371A1F1162003E6007 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D09944391A1F1162003E6007 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D099443B1A1F1162003E6007 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D099443F1A1F1162003E6007 /* Rumor Mill Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumor Mill Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09944451A1F1162003E6007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09944461A1F1162003E6007 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		D09944481A1F1162003E6007 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0CDFAD41A1EE63C0013FDF9 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -59,6 +105,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D099442D1A1F1162003E6007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09944331A1F1162003E6007 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,6 +121,9 @@
 			children = (
 				D013C7D61A1DB81F0090956A /* Rumor Mill */,
 				D013C7EC1A1DB81F0090956A /* Rumor MillTests */,
+				D09944341A1F1162003E6007 /* Rumor Mill WatchKit Extension */,
+				D09944431A1F1162003E6007 /* Rumor Mill Watch App */,
+				D09944311A1F1162003E6007 /* Frameworks */,
 				D013C7D51A1DB81F0090956A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +133,8 @@
 			children = (
 				D013C7D41A1DB81F0090956A /* Rumor Mill.app */,
 				D013C7E91A1DB81F0090956A /* Rumor MillTests.xctest */,
+				D09944301A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex */,
+				D099443F1A1F1162003E6007 /* Rumor Mill Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +180,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D09944311A1F1162003E6007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D09944321A1F1162003E6007 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D09944341A1F1162003E6007 /* Rumor Mill WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D09944371A1F1162003E6007 /* InterfaceController.swift */,
+				D09944391A1F1162003E6007 /* GlanceController.swift */,
+				D099443B1A1F1162003E6007 /* Images.xcassets */,
+				D09944351A1F1162003E6007 /* Supporting Files */,
+			);
+			path = "Rumor Mill WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D09944351A1F1162003E6007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09944361A1F1162003E6007 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09944431A1F1162003E6007 /* Rumor Mill Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D09944461A1F1162003E6007 /* Interface.storyboard */,
+				D09944481A1F1162003E6007 /* Images.xcassets */,
+				D09944441A1F1162003E6007 /* Supporting Files */,
+			);
+			path = "Rumor Mill Watch App";
+			sourceTree = "<group>";
+		};
+		D09944441A1F1162003E6007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09944451A1F1162003E6007 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,10 +235,12 @@
 				D013C7D01A1DB81F0090956A /* Sources */,
 				D013C7D11A1DB81F0090956A /* Frameworks */,
 				D013C7D21A1DB81F0090956A /* Resources */,
+				D09944531A1F1163003E6007 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D099444B1A1F1162003E6007 /* PBXTargetDependency */,
 			);
 			name = "Rumor Mill";
 			productName = "Rumor Mill";
@@ -159,6 +265,39 @@
 			productReference = D013C7E91A1DB81F0090956A /* Rumor MillTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D099442F1A1F1162003E6007 /* Rumor Mill WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09944521A1F1163003E6007 /* Build configuration list for PBXNativeTarget "Rumor Mill WatchKit Extension" */;
+			buildPhases = (
+				D099442C1A1F1162003E6007 /* Sources */,
+				D099442D1A1F1162003E6007 /* Frameworks */,
+				D099442E1A1F1162003E6007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09944421A1F1162003E6007 /* PBXTargetDependency */,
+			);
+			name = "Rumor Mill WatchKit Extension";
+			productName = "Rumor Mill WatchKit Extension";
+			productReference = D09944301A1F1162003E6007 /* Rumor Mill WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D099443E1A1F1162003E6007 /* Rumor Mill Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09944511A1F1163003E6007 /* Build configuration list for PBXNativeTarget "Rumor Mill Watch App" */;
+			buildPhases = (
+				D099443D1A1F1162003E6007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumor Mill Watch App";
+			productName = "Rumor Mill Watch App";
+			productReference = D099443F1A1F1162003E6007 /* Rumor Mill Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +313,12 @@
 					D013C7E81A1DB81F0090956A = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = D013C7D31A1DB81F0090956A;
+					};
+					D099442F1A1F1162003E6007 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D099443E1A1F1162003E6007 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -192,6 +337,8 @@
 			targets = (
 				D013C7D31A1DB81F0090956A /* Rumor Mill */,
 				D013C7E81A1DB81F0090956A /* Rumor MillTests */,
+				D099442F1A1F1162003E6007 /* Rumor Mill WatchKit Extension */,
+				D099443E1A1F1162003E6007 /* Rumor Mill Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +359,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099442E1A1F1162003E6007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09944401A1F1162003E6007 /* Rumor Mill Watch App.app in Resources */,
+				D099443C1A1F1162003E6007 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099443D1A1F1162003E6007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09944471A1F1162003E6007 /* Interface.storyboard in Resources */,
+				D09944491A1F1162003E6007 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +402,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D099442C1A1F1162003E6007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09944381A1F1162003E6007 /* InterfaceController.swift in Sources */,
+				D099443A1A1F1162003E6007 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +418,16 @@
 			isa = PBXTargetDependency;
 			target = D013C7D31A1DB81F0090956A /* Rumor Mill */;
 			targetProxy = D013C7EA1A1DB81F0090956A /* PBXContainerItemProxy */;
+		};
+		D09944421A1F1162003E6007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D099443E1A1F1162003E6007 /* Rumor Mill Watch App */;
+			targetProxy = D09944411A1F1162003E6007 /* PBXContainerItemProxy */;
+		};
+		D099444B1A1F1162003E6007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D099442F1A1F1162003E6007 /* Rumor Mill WatchKit Extension */;
+			targetProxy = D099444A1A1F1162003E6007 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -348,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Rumor Mill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Rumor Mill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +584,66 @@
 			};
 			name = Release;
 		};
+		D099444D1A1F1163003E6007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rumor Mill WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D099444E1A1F1163003E6007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rumor Mill WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D099444F1A1F1163003E6007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Rumor_Mill_WatchKit_Extension;
+				INFOPLIST_FILE = "Rumor Mill Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D09944501A1F1163003E6007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Rumor_Mill_WatchKit_Extension;
+				INFOPLIST_FILE = "Rumor Mill Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,6 +673,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D09944511A1F1163003E6007 /* Build configuration list for PBXNativeTarget "Rumor Mill Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099444F1A1F1163003E6007 /* Debug */,
+				D09944501A1F1163003E6007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09944521A1F1163003E6007 /* Build configuration list for PBXNativeTarget "Rumor Mill WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099444D1A1F1163003E6007 /* Debug */,
+				D099444E1A1F1163003E6007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
