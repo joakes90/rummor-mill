@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D013C7DA1A1DB81F0090956A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7D91A1DB81F0090956A /* AppDelegate.swift */; };
+		D013C7DF1A1DB81F0090956A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D013C7DD1A1DB81F0090956A /* Main.storyboard */; };
+		D013C7E11A1DB81F0090956A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D013C7E01A1DB81F0090956A /* Images.xcassets */; };
+		D013C7E41A1DB81F0090956A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D013C7E21A1DB81F0090956A /* LaunchScreen.xib */; };
+		D013C7F01A1DB81F0090956A /* Rumor_MillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7EF1A1DB81F0090956A /* Rumor_MillTests.swift */; };
+		D013C7FA1A1DB8C90090956A /* RMTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */; };
+		D013C7FC1A1DC7EB0090956A /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013C7FB1A1DC7EB0090956A /* BlogPost.swift */; };
+		D053CAFE1A1E96E600DF646F /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053CAFD1A1E96E600DF646F /* ArticleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D013C7EA1A1DB81F0090956A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013C7CC1A1DB81F0090956A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D013C7D31A1DB81F0090956A;
+			remoteInfo = "Rumor Mill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D013C7D41A1DB81F0090956A /* Rumor Mill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumor Mill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013C7D81A1DB81F0090956A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D013C7D91A1DB81F0090956A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D013C7DE1A1DB81F0090956A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D013C7E01A1DB81F0090956A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D013C7E31A1DB81F0090956A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D013C7E91A1DB81F0090956A /* Rumor MillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rumor MillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013C7EE1A1DB81F0090956A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D013C7EF1A1DB81F0090956A /* Rumor_MillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rumor_MillTests.swift; sourceTree = "<group>"; };
+		D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RMTableTableViewController.swift; path = ../RMTableTableViewController.swift; sourceTree = "<group>"; };
+		D013C7FB1A1DC7EB0090956A /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlogPost.swift; path = ../BlogPost.swift; sourceTree = "<group>"; };
+		D053CAFD1A1E96E600DF646F /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleViewController.swift; path = ../ArticleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D013C7D11A1DB81F0090956A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013C7E61A1DB81F0090956A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D013C7CB1A1DB81F0090956A = {
+			isa = PBXGroup;
+			children = (
+				D013C7D61A1DB81F0090956A /* Rumor Mill */,
+				D013C7EC1A1DB81F0090956A /* Rumor MillTests */,
+				D013C7D51A1DB81F0090956A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D013C7D51A1DB81F0090956A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D013C7D41A1DB81F0090956A /* Rumor Mill.app */,
+				D013C7E91A1DB81F0090956A /* Rumor MillTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D013C7D61A1DB81F0090956A /* Rumor Mill */ = {
+			isa = PBXGroup;
+			children = (
+				D013C7FB1A1DC7EB0090956A /* BlogPost.swift */,
+				D013C7F91A1DB8C90090956A /* RMTableTableViewController.swift */,
+				D053CAFD1A1E96E600DF646F /* ArticleViewController.swift */,
+				D013C7D91A1DB81F0090956A /* AppDelegate.swift */,
+				D013C7DD1A1DB81F0090956A /* Main.storyboard */,
+				D013C7E01A1DB81F0090956A /* Images.xcassets */,
+				D013C7E21A1DB81F0090956A /* LaunchScreen.xib */,
+				D013C7D71A1DB81F0090956A /* Supporting Files */,
+			);
+			path = "Rumor Mill";
+			sourceTree = "<group>";
+		};
+		D013C7D71A1DB81F0090956A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D013C7D81A1DB81F0090956A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D013C7EC1A1DB81F0090956A /* Rumor MillTests */ = {
+			isa = PBXGroup;
+			children = (
+				D013C7EF1A1DB81F0090956A /* Rumor_MillTests.swift */,
+				D013C7ED1A1DB81F0090956A /* Supporting Files */,
+			);
+			path = "Rumor MillTests";
+			sourceTree = "<group>";
+		};
+		D013C7ED1A1DB81F0090956A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D013C7EE1A1DB81F0090956A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D013C7D31A1DB81F0090956A /* Rumor Mill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D013C7F31A1DB81F0090956A /* Build configuration list for PBXNativeTarget "Rumor Mill" */;
+			buildPhases = (
+				D013C7D01A1DB81F0090956A /* Sources */,
+				D013C7D11A1DB81F0090956A /* Frameworks */,
+				D013C7D21A1DB81F0090956A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumor Mill";
+			productName = "Rumor Mill";
+			productReference = D013C7D41A1DB81F0090956A /* Rumor Mill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D013C7E81A1DB81F0090956A /* Rumor MillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D013C7F61A1DB81F0090956A /* Build configuration list for PBXNativeTarget "Rumor MillTests" */;
+			buildPhases = (
+				D013C7E51A1DB81F0090956A /* Sources */,
+				D013C7E61A1DB81F0090956A /* Frameworks */,
+				D013C7E71A1DB81F0090956A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D013C7EB1A1DB81F0090956A /* PBXTargetDependency */,
+			);
+			name = "Rumor MillTests";
+			productName = "Rumor MillTests";
+			productReference = D013C7E91A1DB81F0090956A /* Rumor MillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D013C7CC1A1DB81F0090956A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Justin Oakes";
+				TargetAttributes = {
+					D013C7D31A1DB81F0090956A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D013C7E81A1DB81F0090956A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D013C7D31A1DB81F0090956A;
+					};
+				};
+			};
+			buildConfigurationList = D013C7CF1A1DB81F0090956A /* Build configuration list for PBXProject "Rumor Mill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D013C7CB1A1DB81F0090956A;
+			productRefGroup = D013C7D51A1DB81F0090956A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D013C7D31A1DB81F0090956A /* Rumor Mill */,
+				D013C7E81A1DB81F0090956A /* Rumor MillTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D013C7D21A1DB81F0090956A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013C7DF1A1DB81F0090956A /* Main.storyboard in Resources */,
+				D013C7E41A1DB81F0090956A /* LaunchScreen.xib in Resources */,
+				D013C7E11A1DB81F0090956A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013C7E71A1DB81F0090956A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D013C7D01A1DB81F0090956A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013C7FA1A1DB8C90090956A /* RMTableTableViewController.swift in Sources */,
+				D053CAFE1A1E96E600DF646F /* ArticleViewController.swift in Sources */,
+				D013C7FC1A1DC7EB0090956A /* BlogPost.swift in Sources */,
+				D013C7DA1A1DB81F0090956A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D013C7E51A1DB81F0090956A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013C7F01A1DB81F0090956A /* Rumor_MillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D013C7EB1A1DB81F0090956A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D013C7D31A1DB81F0090956A /* Rumor Mill */;
+			targetProxy = D013C7EA1A1DB81F0090956A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D013C7DD1A1DB81F0090956A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D013C7DE1A1DB81F0090956A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D013C7E21A1DB81F0090956A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D013C7E31A1DB81F0090956A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D013C7F11A1DB81F0090956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D013C7F21A1DB81F0090956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D013C7F41A1DB81F0090956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumor Mill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D013C7F51A1DB81F0090956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rumor Mill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D013C7F71A1DB81F0090956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rumor MillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumor Mill.app/Rumor Mill";
+			};
+			name = Debug;
+		};
+		D013C7F81A1DB81F0090956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rumor MillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rumor Mill.app/Rumor Mill";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D013C7CF1A1DB81F0090956A /* Build configuration list for PBXProject "Rumor Mill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013C7F11A1DB81F0090956A /* Debug */,
+				D013C7F21A1DB81F0090956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D013C7F31A1DB81F0090956A /* Build configuration list for PBXNativeTarget "Rumor Mill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013C7F41A1DB81F0090956A /* Debug */,
+				D013C7F51A1DB81F0090956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D013C7F61A1DB81F0090956A /* Build configuration list for PBXNativeTarget "Rumor MillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D013C7F71A1DB81F0090956A /* Debug */,
+				D013C7F81A1DB81F0090956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D013C7CC1A1DB81F0090956A /* Project object */;
+}
