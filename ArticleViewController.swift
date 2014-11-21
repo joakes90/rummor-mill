@@ -12,15 +12,16 @@ class ArticleViewController: UIViewController {
 
     
     
-    @IBOutlet weak var articleText: UITextView!
+    @IBOutlet weak var articleText: UIWebView!
+   
     
         
-    var text: String = String().stringByReplacingOccurrencesOfString("<br>", withString: "/n", options: nil, range: nil)
+    var text: String = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        articleText.addObserver(self, forKeyPath: "contentSize", options: NSKeyValueObservingOptions(), context: nil)
-        articleText.text = text.stringByReplacingOccurrencesOfString("</br>", withString: "/n", options: nil, range: nil)
+      //articleText.addObserver(self, forKeyPath: "contentSize", options: NSKeyValueObservingOptions(), context: nil)
+        articleText.loadHTMLString(text, baseURL: nil)
 
         // Do any additional setup after loading the view.
     }
@@ -31,7 +32,7 @@ class ArticleViewController: UIViewController {
     }
     
     override func viewDidDisappear(animated: Bool) {
-        articleText.removeObserver(self, forKeyPath: "contentSize")
+        //articleText.removeObserver(self, forKeyPath: "contentSize")
     }
     
     override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {

@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mdz-Ow-PI4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Rumor Mill-->
@@ -38,6 +37,7 @@
         <!--Article View Controller-->
         <scene sceneID="5Yk-Ov-63a">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrz-m1-ypN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="41j-hs-rqb" customClass="ArticleViewController" customModule="Rumor_Mill" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pmd-Dx-xHR"/>
@@ -47,26 +47,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Text View" translatesAutoresizingMaskIntoConstraints="NO" id="j8C-wE-8OX">
-                                <rect key="frame" x="16" y="72" width="568" height="508"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0a9-3M-gD2">
+                                <rect key="frame" x="0.0" y="44" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
-                            </textView>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="j8C-wE-8OX" firstAttribute="leading" secondItem="5uw-dJ-lLF" secondAttribute="leadingMargin" id="DIk-cI-KjE"/>
-                            <constraint firstItem="j8C-wE-8OX" firstAttribute="trailing" secondItem="5uw-dJ-lLF" secondAttribute="trailingMargin" id="MLl-Lb-n9h"/>
-                            <constraint firstItem="j8C-wE-8OX" firstAttribute="top" secondItem="pmd-Dx-xHR" secondAttribute="bottom" constant="8" id="Pvz-Q5-JkZ"/>
-                            <constraint firstItem="V1d-aq-aan" firstAttribute="top" secondItem="j8C-wE-8OX" secondAttribute="bottom" constant="20" id="QHe-4L-wc4"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="articleText" destination="j8C-wE-8OX" id="Dum-95-gRM"/>
+                        <outlet property="articleText" destination="0a9-3M-gD2" id="u13-CY-hYj"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrz-m1-ypN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1856" y="410"/>
         </scene>
